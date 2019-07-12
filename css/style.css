@@ -6,7 +6,23 @@
     background-color: #0C3CE8!important;
 }
 
- 
+
+
+.btn-suscribirse{
+  border-top-right-radius: 30px !important;   border-bottom-right-radius: 30px !important; 
+}
+
+
+.input-suscribirse{
+  border-top-left-radius: 30px !important;   border-bottom-left-radius: 30px !important; 
+}
+
+
+
+ .btn-redondeado{
+
+    border-radius: 30px 30px 30px 30px !important;
+ }
 #head {
 
 background-color: #007BFF;
