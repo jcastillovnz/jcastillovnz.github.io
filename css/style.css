@@ -1,42 +1,21 @@
  body{
-  background-color: #fefefe
+
  }
- .navbar-nav {
-      flex-direction: row;
-    }
- }
-    
+
+  .bg-black {
+    background-color: #0C3CE8!important;
+}
+
+ 
+#head {
+
+background-color: #007BFF;
+
+}
    .whatsapp {
     position: fixed;
     bottom: 10px;
     right: 10px;
     z-index: 100000!important;
 } 
-.bg-trans {
-    background-color: rgba(255,255,255,.5)!important;
-}
-  
-#particles-js{
-  width: 65%;
-  height: 10%;
-  position: fixed;
-  background-color: #000;
-  background-image: url('');
-  background-size: cover;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-}
-
-.body-particles{
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 100;
-}
-
-.bg-fefefe{
-
-background-color: red;
-
-}
 
