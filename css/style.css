@@ -1,5 +1,5 @@
  body{
-background-color: #F0F0F0;
+background-color: #F0F4FA;
  }
 
 
@@ -21,6 +21,26 @@ background-color:#fefefe!important
 background-color: #ffff;
 
 }
+#contacto{
+
+    border-top-right-radius: 30px !important;
+ }
+#stack {
+border-top-left-radius: 30px !important; border-top-right-radius: 30px !important;
+ border-bottom-left-radius: 30px !important; border-bottom-right-radius: 30px !important;
+}
+
+
+#suscribirse{
+border-top-left-radius: 30px !important; border-top-right-radius: 30px !important;
+ border-bottom-left-radius: 30px !important; border-bottom-right-radius: 30px !important;
+}
+
+#servicios{
+
+    border-radius: 30px 30px 30px 30px !important;
+ }
+
 
 .btn-suscribirse{
   border-top-right-radius: 30px !important;   border-bottom-right-radius: 30px !important; 
@@ -37,6 +57,14 @@ background-color: #ffff;
 color: #F59800
 
 }
+
+footer{
+
+  border-top-left-radius: 30px !important; 
+ }
+
+
+
 
  .btn-redondeado{
 
