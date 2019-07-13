@@ -1,15 +1,30 @@
  body{
-
+background-color: #F0F0F0;
  }
+
+
+
+.fefefe {
+
+background-color:#fefefe!important
+
+}
+
+
 
   .bg-black {
     background-color: #0C3CE8!important;
 }
 
+#inicio{
 
+background-color: #ffff;
+
+}
 
 .btn-suscribirse{
   border-top-right-radius: 30px !important;   border-bottom-right-radius: 30px !important; 
+  background-color:  #00a82d;
 }
 
 
