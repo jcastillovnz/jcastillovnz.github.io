@@ -182,12 +182,7 @@ this.loader=1;
 
 
 
-
-var config = {
-    headers: {'Access-Control-Allow-Origin': '*'},'Content-Type': 'application/json',
-};
-
-axios.post('https://apis-jcastillovnz.000webhostapp.com/suscripcion', config,
+axios.post('http://api2.test/suscripcion', 
 {
   email:  this.email,
   }
