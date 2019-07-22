@@ -21,8 +21,8 @@ background-color: #ffff;
 }
 #contacto{
 
-border-top-left-radius: 30px !important; border-top-right-radius: 30px !important;
- border-bottom-left-radius: 30px !important; border-bottom-right-radius: 30px !important;
+/*border-top-left-radius: 30px !important; border-top-right-radius: 30px !important;
+ border-bottom-left-radius: 30px !important; border-bottom-right-radius: 30px !important;*/
  }
 #stack {
 border-top-left-radius: 30px !important; border-top-right-radius: 30px !important;
@@ -60,8 +60,6 @@ color: #F59800
 
 footer{
 
-  border-top-left-radius: 30px !important; 
-  border-top-right-radius: 30px !important; 
 font-size: 13px;
 
  }
