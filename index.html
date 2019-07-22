@@ -23,35 +23,37 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 
 
+
+
 <script src="js/particles.js"></script>
 <script src="js/app.js"></script>
 
 
-<nav class="navbar navbar-expand-sm  navbar-light bg-light sticky-top">
+
+<nav class="navbar navbar-expand-sm  navbar-light bg-light sticky-top" >
 
 
-
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
     <span class="navbar-toggler-icon"></span>
   </button>
 
 
 
 
-  <div class="collapse navbar-collapse" id="collapsibleNavbar">
-    <ul class="navbar-nav text-center mx-auto  ">
+  <div class="collapse navbar-collapse" id="myNavbar">
+    <ul class="navbar-nav text-center mx-auto  "    >
       <li class="nav-item">
-        <a class="nav-link text-dark" href="#"> <strong>INICIO</strong>  </a>
+        <a class="nav-link text-dark js-scroll-trigger" href="#inicio"> <strong>INICIO</strong>  </a>
       </li>
       <li class="nav-item ">
-        <a class="nav-link text-dark" href="#servicios"><strong>SERVICIOS</strong> </a>
+        <a class="nav-link text-dark js-scroll-trigger" href="#servicios"><strong>SERVICIOS</strong> </a>
       </li>
-   <a class="navbar-brand ml-3" href="#">  <img width="120" src="/img/logo.png">    </a>
+   <a class="navbar-brand ml-3" href="#inicio">  <img width="120" src="/img/logo.png">    </a>
       <li class="nav-item ">
-        <a class="nav-link text-dark" href="#sobre-mi"><strong>SOBRE MI</strong></a>
+        <a class="nav-link text-dark js-scroll-trigger" href="#sobre-mi"><strong>SOBRE MI</strong></a>
       </li>
     <li class="nav-item ">
-        <a class="nav-link text-dark" href="#contacto"><strong>CONTACTO</strong></a>
+        <a class="nav-link text-dark js-scroll-trigger" href="#contacto"><strong>CONTACTO</strong></a>
       </li>
     </ul>
   </div>  
@@ -61,7 +63,7 @@
 
 
 
-<div  style="position: absolute ; height: 280px;   width: 100%; z-index: 0" id="particles-js"></div>
+<div   style="position: absolute ; height: 280px;   width: 100%; z-index: 0" id="particles-js"></div>
 <div    class="jumbotron text-center  " id="head-particulas"  style=" height: 280px; padding-top: none; margin-bottom: 0;max-height: auto ">
   <h1 class="mt-4 pt-4 text-white">JOSÉ CASTILLO DESARROLLADOR WEB<br></h1>
 
@@ -1192,6 +1194,16 @@ Enviar mensaje</button>
 </section>
 
 
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom JavaScript for this theme -->
+  <script src="js/scrolling-nav.js"></script>
+
 </body>
 
 
@@ -1224,7 +1236,6 @@ Desarrollador / Programador de Sitios Web - Aplicaciones Web a medida
 
 </div>
 </footer>
-
 
 
 
