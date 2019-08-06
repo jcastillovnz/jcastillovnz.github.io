@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Jose Castillo programador web freelance</title>
+  <title>Jose Castillo programador web</title>
   <meta charset="utf-8">
 
   <meta name="description" content="Jose Castillo programador web freelance">
@@ -110,114 +110,6 @@ Diseñador y desarrollador de aplicaciones web
 
 
 
-
-
-<section  class=" fefefe">
-<div id="" class="container ">
-<div id="app" class="col-sm-12">
-
-
-<form @submit.prevent="enviar()"  class="row">
-<div class="col-sm-5">
-<p  class="mt-4  mb-4"><h4 class="text-primary"> <i class="fas fa-bell notificacion"></i> Suscribete para saber de mis ofertas</h4></p>
-</div>
-<div class="col-sm-7 ">  
-<div class="input-group    mt-4  mb-4">
-<input type="text" class="form-control input-suscribirse" v-model="email" placeholder="Ingresa tu email, y mantente informado de las ultimas ofertas"  aria-describedby="basic-addon2">
-<div class="input-group-append">
-<button  type="sumbit" class="btn  btn-suscribirse text-white" type="button"><div v-show="loader==1" class="spinner-border spinner-border-sm" role="status">
-<span  class="sr-only">Loading...</span>
-</div>      <strong>Suscribirse</strong> </button>
-</div>
-</div>
-</div>
-</form>
-
-
-</div>
-</div>
-<script type="text/javascript">
-  
-
-
- var app = new Vue({
-  el: '#app',
-  data: {
-    loader:0,
-    email:'',
-    mensaje:'hola'
-  
-  }
-,
-  mounted(){
-
-
-axios.get('https://apis-jcastillovnz.000webhostapp.com/dame')
-  .then(function (response) {
-    // handle success
-    console.log(response);
-  })
-  .catch(function (error) {
-    // handle error
-    console.log(error);
-  })
-  .finally(function () {
-    // always executed
-  });
-
-
-
-  },
-
-methods: {
-
-enviar () {
-var that = this;
-this.loader=1;
-
-
-
-axios.post('https://apis-jcastillovnz.000webhostapp.com/suscripcion', 
-{
-  email:  this.email,
-  }
-
-
-
-  )
-  .then(function (response) {
-if (response.data.result == 1) {
-that.loader = 0 ;
-Swal.fire({
- type: 'success',
- showConfirmButton: false,
-  timer: 1000
-})
-
-that.email='';
-
-}
-else
-{
-Swal.fire({
- type: 'error',
-  text: "Hubo un problema, intenta mas tarde!",
-  icon: "info",
- showConfirmButton: false,
-  timer: 1000})
-}
-})
-  .catch(function (error) {
-console.log(error);
-});
-}
-}
-})
-</script>
-
-
-
-</section>
 
 
 
